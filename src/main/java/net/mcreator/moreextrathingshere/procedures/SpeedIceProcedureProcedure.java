@@ -3,7 +3,7 @@ package net.mcreator.moreextrathingshere.procedures;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.event.ServerChatEvent;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
@@ -23,10 +23,8 @@ import javax.annotation.Nullable;
 @Mod.EventBusSubscriber
 public class SpeedIceProcedureProcedure {
 	@SubscribeEvent
-	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
-		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player.level(), event.player);
-		}
+	public static void onChat(ServerChatEvent event) {
+		execute(event, event.getPlayer().level(), event.getPlayer());
 	}
 
 	public static void execute(LevelAccessor world, Entity entity) {

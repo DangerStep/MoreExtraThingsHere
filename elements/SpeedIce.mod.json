@@ -6,13 +6,28 @@
     "type": "ARMOR_FEET",
     "rarity": "RARE",
     "minLevel": 1,
-    "maxLevel": 1,
+    "maxLevel": 3,
     "damageModifier": 0,
     "compatibleEnchantments": [],
     "excludeEnchantments": false,
     "compatibleItems": [
       {
-        "value": "TAG:minecraft:armors/boots"
+        "value": "Items.LEATHER_BOOTS"
+      },
+      {
+        "value": "Items.CHAINMAIL_BOOTS"
+      },
+      {
+        "value": "Items.IRON_BOOTS"
+      },
+      {
+        "value": "Items.GOLDEN_BOOTS"
+      },
+      {
+        "value": "Items.DIAMOND_BOOTS"
+      },
+      {
+        "value": "Items.NETHERITE_BOOTS"
       }
     ],
     "excludeItems": false,
