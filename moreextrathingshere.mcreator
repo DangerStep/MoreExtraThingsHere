@@ -1,0 +1,66 @@
+{
+  "mod_elements": [
+    {
+      "name": "SpeedIce",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_ice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreextrathingshere/enchantment/SpeedIceEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeedIceProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_ice_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreextrathingshere/procedures/SpeedIceProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "enchantment.moreextrathingshere.speed_ice": "Ice of Speed"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "moreextrathingshere",
+    "modName": "MoreExtraThingsHere",
+    "version": "1.0.0",
+    "author": "missa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.moreextrathingshere"
+  },
+  "mcreatorVersion": 202400115821
+}

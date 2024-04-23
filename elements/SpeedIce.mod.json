@@ -1,0 +1,25 @@
+{
+  "_fv": 60,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Ice of Speed",
+    "type": "ARMOR_FEET",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [
+      {
+        "value": "TAG:minecraft:armors/boots"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": true,
+    "isCurse": true,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
+  }
+}
